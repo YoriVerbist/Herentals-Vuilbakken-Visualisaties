@@ -62,18 +62,16 @@ require( ["js/qlik"], function ( qlik ) {
 	} );
 	
 	//open apps -- inserted here --
-	var app = qlik.openApp("9e38b6b7-e11c-4539-a0b0-915b0cc429e0", config1);
+	var app = qlik.openApp("03b39da6-1350-46aa-b001-2cbddb8a2762", config1);
 	//get objects -- inserted here --
-	app.getObject('QV01', 'cMZzTb'); // map nursing homes
-	app.getObject('QV02', 'hBwSNB'); // scatter nursing homes
-	app.getObject('QV03', 'hjeMP'); // Line chart daily cases
-	app.getObject('QV04', 'ERWmLm'); // kpi daily cases
-	app.getObject('QV06', 'TukJdUA'); // Bar acquisition cases
-	app.getObject('QV08', 'vJGjtf'); // Positives vs negatives results/city
-	app.getObject('QV09', 'zAP'); // Beds/nursing home
-	app.getObject('QV10', 'Mzmv'); // map hopitals
-	app.getObject('QV11', 'XnkWLZq'); // boxplot average patients in icu
-	app.getObject('QV12', 'sWxz'); // scatter people in icu/hospital
+	app.getObject('QV01', 'NMsnj'); // map garbagebins
+	app.getObject('QV02', 'kDLMZuP'); // average weight vs volume
+	app.getObject('QV03', 'FJKhKb'); // average volume
+	app.getObject('QV04', 'zPxpPuJ'); // totale volume/day
+	app.getObject('QV05', 'gpeeZ'); // avarage volume/weekday
+	app.getObject('QV06', 'tDbNbLY'); // average volume/month
+	app.getObject('QV07', 'Ljrtg'); // KPI totale volume
+	app.getObject('QV08', 'aFtXFcR'); // Drill-down
 	
 	$("#ClearAll").click(function() {
 	app.clearAll();

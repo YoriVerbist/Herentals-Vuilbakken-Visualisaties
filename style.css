@@ -11,89 +11,6 @@
   margin: 45px 0 0 45px;
 }
 
-/* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #f00; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #fff;
-  display: block;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Style page content */
-.main {
-  color: #e8112d;
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
-#popup {
-  background-color: #c3534b;
-  color: #ffffff;
-  position: fixed;
-  max-width: 250px;
-  padding: 10px;
-  margin: 10px;
-  bottom: 0;
-  right: 0;
-  display: none;
-  border-radius: 5px;
-  z-index: 6;
-  font-family: sans-serif;
-}
-
-.close {
-  cursor: pointer;
-  background: 0 0;
-  border: 0;
-  float: right;
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
-  opacity: 0.2;
-  position: absolute;
-  right: 9px;
-  top: 7px;
-}
-
-.close:hover {
-  opacity: 0.5;
-}
-
-#popupText {
-  margin-right: 23px;
-}
-
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
@@ -103,7 +20,6 @@ body {
 }
 
 p {
-  padding-left: 20vw;
   width: 60vw;
 }
 
