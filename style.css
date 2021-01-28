@@ -15,6 +15,21 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
+button {
+  margin: auto !important;
+  background-color: #1B3C65 !important;
+  width: 100px;
+  margin-left: -50px !important;
+}
+
+.bg-nav {
+  background-color: #1B3C65 !important;
+}
+
+.bg-nav a {
+  color: #ffffff !important;
+}
+
 p {
   width: 60vw;
 }
