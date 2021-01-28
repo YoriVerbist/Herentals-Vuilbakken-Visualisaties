@@ -19,7 +19,6 @@ body {
   margin: auto !important;
   background-color: #1B3C65 !important;
   width: 100px;
-  margin-left: -50px !important;
 }
 
 .bg-nav {
@@ -28,10 +27,6 @@ body {
 
 .bg-nav a {
   color: #ffffff !important;
-}
-
-p {
-  width: 60vw;
 }
 
 .main {
