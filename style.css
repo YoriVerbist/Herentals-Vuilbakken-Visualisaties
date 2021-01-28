@@ -15,16 +15,16 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
-.intro {
-  text-align: center;
-}
-
 p {
   width: 60vw;
 }
 
 .main {
   text-align: center;
+}
+
+footer{
+  margin-top: 75px;
 }
 
 .footer-distributed {
