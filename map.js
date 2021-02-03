@@ -65,6 +65,7 @@ require( ["js/qlik"], function ( qlik ) {
 	var app = qlik.openApp("3fa043d7-89a8-4fc4-b624-cf0f43c6eaf0", config1);
 	//get objects -- inserted here --
 	app.getObject('QV01', 'VwbPMu'); // map garbagebins
+	app.getObject('QV02', 'AAyaWxQ'); // map garbagebins
 	
 	$("#ClearAll").click(function() {
 	app.clearAll();
