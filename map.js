@@ -10,10 +10,10 @@
 connect();
 
 async function connect() {
-    const urlQlikServer = "https://yoriv.eu.qlikcloud.com";
+    const urlQlikServer = "https://r0743694.eu.qlikcloud.com";
     const urlLoggedIn = "/api/v1/audits";//Use GET request to see if you are authenticated
     const urlLogin = "/login";
-    const webIntegrationId = 'EEOoDIgP234lUdXymAF9JJ0Bd3t4r9f0';        
+    const webIntegrationId = '6jCeOeJcpV3DiDdKJLbboR94qWbgFGFe';        
 
     //Check to see if logged in
     return await fetch(`${urlQlikServer}${urlLoggedIn}`, {
@@ -43,7 +43,7 @@ var config1 = {
     prefix: "/", //or the virtual proxy to be used. for example "/anonymous/"
     port: 443, //or the port to be used if different from the default port  
     isSecure: true, //should be true if connecting over HTTPS
-    webIntegrationId: 'EEOoDIgP234lUdXymAF9JJ0Bd3t4r9f0' //only needed in SaaS editions and QSEoK
+    webIntegrationId: '6jCeOeJcpV3DiDdKJLbboR94qWbgFGFe' //only needed in SaaS editions and QSEoK
 };
 
 require.config( {
@@ -62,7 +62,7 @@ require( ["js/qlik"], function ( qlik ) {
 	} );
 	
 	//open apps -- inserted here --
-	var app = qlik.openApp("3fa043d7-89a8-4fc4-b624-cf0f43c6eaf0", config1);
+	var app = qlik.openApp("2c2f2733-82c2-4a1e-8eb8-60c77c5925d6", config1);
 	//get objects -- inserted here --
 	app.getObject('QV01', 'VwbPMu'); // map garbagebins
 	app.getObject('QV02', 'AAyaWxQ'); // map garbagebins
