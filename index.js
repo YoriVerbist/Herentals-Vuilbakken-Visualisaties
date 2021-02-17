@@ -62,7 +62,7 @@ require( ["js/qlik"], function ( qlik ) {
 	} );
 	
 	//open apps -- inserted here --
-	var app = qlik.openApp("67b2279f-39c6-48be-9262-31172ed36071", config1);
+	var app = qlik.openApp("644fb1e2-4d89-49e8-b24b-a24e7a5a9a40", config1);
 	//get objects -- inserted here --
 	app.getObject('QV01', 'NMsnj'); // map garbagebins
 	app.getObject('QV02', 'kDLMZuP'); // average weight vs volume
