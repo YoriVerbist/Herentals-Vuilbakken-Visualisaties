@@ -62,7 +62,7 @@ require( ["js/qlik"], function ( qlik ) {
 	} );
 	
 	//open apps -- inserted here --
-	var app = qlik.openApp("2c2f2733-82c2-4a1e-8eb8-60c77c5925d6", config1);
+	var app = qlik.openApp("439bc1fe-6049-4ab1-bb50-0a5dd1beb0ba", config1);
 	//get objects -- inserted here --
 	app.getObject('QV01', 'VwbPMu'); // map garbagebins
 	app.getObject('QV02', 'AAyaWxQ'); // map garbagebins
